@@ -9,12 +9,14 @@ h1 {
   font-size: 3em;
   text-align: center;
   text-transform: uppercase;
+  font-family: open sans, ariel, sans-serif;
 }
 
 strong {
   color: #33485e;
   font-size: 1.5em;
   text-transform: uppercase;
+  font-family: open sans, ariel, sans-serif;
 }
 
 h2 {
@@ -23,14 +25,34 @@ h2 {
   text-transform: uppercase;
   color: white;
   font-weight: 400;
+  font-family: open sans, ariel, sans-serif;
 }
 
 h3 {
   font-size: 1.5em;
   font-weight: 600;
+  font-family: open sans, ariel, sans-serif;
+  color: #444;
 }
 
 h4 {
   font-size: 1.5em;
   font-weight: 400;
+  font-family: open sans, ariel, sans-serif;
+  color: #444;
+}
+
+h5 {
+  font-size: 1em;
+  font-weight: 400;
+  font-style: italic;
+  font-family: open sans, ariel, sans-serif;
+  color: #444;
+}
+
+ul {
+  font-size: 1em;
+  font-family: open sans, ariel, sans-serif;
+  color: #444;
+  font-family: open sans, ariel, sans-serif;
 }
