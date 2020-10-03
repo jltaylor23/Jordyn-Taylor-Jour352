@@ -4,12 +4,15 @@ font-family: open sans, ariel, sans-serif;
 font-size: 1em;
 }
 
-h1 {
+#name {
   color: #33485e;
   font-size: 3em;
   text-align: center;
   text-transform: uppercase;
   font-family: open sans, ariel, sans-serif;
+  border:  #33485e;
+  width: 60%, 300px;
+  margin: 0 auto, Center;
 }
 
 strong {
