@@ -95,11 +95,11 @@ margin-right: 0;
   margin-left: 0;
   margin-right: 0;
   text-align: center;
-  display: inline;
 }
 
-:target {
+.menu li {
   display: inline;
+  text-align: center;
 }
 
 #degrees {
