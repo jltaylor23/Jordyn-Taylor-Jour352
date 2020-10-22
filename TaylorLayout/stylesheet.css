@@ -1,0 +1,50 @@
+#content {
+    margin: 0 auto;
+    width: 900px;
+}
+
+h1 {
+  font-size: 25px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+#byline {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+h2 {
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
+
+p {
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
+
+blockquote {
+  font-size: 20px;
+  font-style: italic;
+  color: orange;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 50px
+  padding-left: 15px;
+  border-left: 4px solid #ccc;
+}
+
+figure {
+  text-align: center;
+  font-size: smaller;
+  margin-bottom: 10px;
+}
