@@ -47,4 +47,5 @@ figure {
   text-align: center;
   font-size: smaller;
   margin-bottom: 10px;
+  float: inherit;
 }

@@ -1,0 +1,53 @@
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+#headline {
+  font-size: 27px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+#byline {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+figure {
+  align: center;
+  text-align: center;
+  margin-top: 20px;
+  font-size: smaller;
+}
+
+#by {
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+.Subtitle {
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-align: left;
+}
