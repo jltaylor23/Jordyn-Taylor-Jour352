@@ -8,24 +8,16 @@ margin-left: 0;
 margin-right: 0;
 }
 
-#name {
-  color: #33485e;
-  font-size: 3em;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: open sans, ariel, sans-serif;
-  border-bottom: 1px solid #33485e;
-  width: 60%;
-  min-width: 300px;
+
+#masthead {
   margin: 0 auto;
 }
 
 #title {
-  color: #33485e;
   font-size: 1.5em;
   text-transform: uppercase;
   font-family: open sans, ariel, sans-serif;
-  font-weight: 600;
+  font-weight: bold;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 0px;
@@ -33,11 +25,41 @@ margin-right: 0;
   margin-right: 0;
 }
 
-.sectionheader {
-  background-color: #33485e;
+#top {
+  background-color: black;
   font-size: 1.5em;
   text-transform: uppercase;
-  color: white;
+  color: #3FBCCC;
+  font-weight: 400;
+  font-family: open sans, ariel, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 70%;
+  min-width: 300px;
+}
+
+#two {
+  background-color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: #3FBCCC;
+  font-weight: 400;
+  font-family: open sans, ariel, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 70%;
+  min-width: 300px;
+}
+
+#last {
+  background-color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: #3FBCCC;
   font-weight: 400;
   font-family: open sans, ariel, sans-serif;
   margin-top: 20px;
@@ -58,7 +80,7 @@ margin-right: 0;
   font-size: 1.5em;
   font-weight: 600;
   font-family: open sans, ariel, sans-serif;
-  color: #444;
+  color: #3FBCCC;
 }
 
 .organization {
@@ -81,20 +103,26 @@ margin-right: 0;
 
 }
 
-.menu {
+#menu {
   font-size: 1em;
   font-family: open sans, ariel, sans-serif;
-  color: #444;
   font-family: open sans, ariel, sans-serif;
   padding-left: 0px;
   padding-right: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
-  margin-top: 0px;
+  margin-top: 50px;
   margin-bottom: 0px;
   margin-left: 0;
-  margin-right: 0;
+  margin-right: 50px;
   text-align: center;
+  color: solid black;
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid black;
+  padding: 50px;
+  }
+  </style>
 }
 
 .menu li {
@@ -120,4 +148,10 @@ margin-right: 0;
   color: #444;
   font-family: open sans, ariel, sans-serif;
   font-size: 1em;
+}
+
+.footer {
+  color: #3FBCCC;
+  margin-top: 20px;
+  text-align: center;
 }

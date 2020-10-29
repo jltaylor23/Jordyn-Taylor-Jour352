@@ -5,31 +5,67 @@
 
   <title>Jordyn Taylor's Resume</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
 <link href="style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
 
 </head>
 
 <body>
+
+
+  <!--Bootstrap NavBar start-->
+  
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#top">Experience <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#two">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#last">
+              Skills
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">My Info</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
   <div id="container">
   <!-- I built this myself! -->
 
-<div id="name">Jordyn Taylor</div>
-<!--<img src="jordyntaylor.jpeg" width= 300px">-->
 
-<!--Contact details -->
-<ul class="menu">
-  <li><a href="mailto:jordynlindseytaylor@gmail.com">jordynlindseytaylor@gmail.com</a></li>
-  <li><a href="https://www.linkedin.com/in/jordyn-taylor-5061b719a/">LinkedIn</a></li>
-  <li><a href="https://twitter.com/jltaylor619">Twitter</a></li>
-  <li><a href= "https://github.com/jltaylor23">GitHub</a></li>
-</ul>
+<div>
+  <img id="masthead" src="Resume header.png" alt="Jordyn Taylor">
+</div>
 
 <!--Title and mission statement -->
 <div id="title">Student Journalist</div>
 
-
 <!--Experience section -->
-<div class="sectionheader">Experience</div>
+<div id="top">Experience</div>
 
 <!--First job -->
 <div class= "jobtitle">Media Relations Intern</div>
@@ -88,14 +124,14 @@
 
 
 <!-- Edu Section -->
-<div class="sectionheader">Education</div>
+<div id="two">Education</div>
 <ul id="degrees">
   <li>Bachelor of Journalism, Journalism Major, University of Maryland, Expected degree in 2022</li>
   <li>High School Diploma, Thomas S. Wootton High School, 2018</li>
 </ul>
 
 <!--Skills Section -->
-<div class="sectionheader">Skills</div>
+<div id="last">Skills</div>
 <ul id="do">
   <li>Editing with Adobe Photoshop</li>
   <li>Editing with Adobe InDesign</li>
@@ -106,7 +142,18 @@
   <li>Data analysis with Excel</li>
 </ul>
 
+<!--Contact details -->
+<ul id="menu">
+  <li><a href="mailto:jordynlindseytaylor@gmail.com">jordynlindseytaylor@gmail.com</a></li>
+  <li><a href="https://www.linkedin.com/in/jordyn-taylor-5061b719a/">LinkedIn</a></li>
+  <li><a href="https://twitter.com/jltaylor619">Twitter</a></li>
+  <li><a href= "https://github.com/jltaylor23">GitHub</a></li>
+</ul>
 
+
+<div class="footer">
+  <p>Jordyn Taylor, 2020</p>
+</div>
 
 </div>
 </body>
