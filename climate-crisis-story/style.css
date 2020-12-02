@@ -1,0 +1,110 @@
+.top {
+  padding: 80px;
+  text-align: center;
+  background: orange;
+  color: black;
+  font-size: 60px;
+  border-style: solid;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+
+
+
+#headline {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#byline {
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-familiy: Georgia, serif;
+  line-height: 180%;
+  font-size: 1em;
+  margin-top: 4px;
+  margin-bottom: 20px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+}
+
+#chapter {
+  font-size: 2em;
+  font-weight: 700;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  color: red;
+  margin-bottom: 15px;
+}
+
+figure {
+  margin-bottom: 20px;
+  margin-top: 20px
+  text-align: center;
+  width: 800px;
+  length: 800px;
+  display: block;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+}
+
+blockquote {
+  font-size: 30px;
+  font-style: italic;
+  color: orange;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 50px
+  padding-left: 15px;
+  border-left: 4px solid #ccc;
+  font-weight: bold;
+}
+
+.sidebar {
+  width: 600px;
+  height: 700px;
+  padding: 50px;
+  border: 10px solid orange;
+  background-color: white;
+  color: orange;
+  margin: 5px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.panel-heading {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: left;
+  font-style: italic;
+  color: black;
+}
+
+#list {
+  text-align: left;
+  color: black;
+}
+
+#source {
+  font-style: italic;
+  text-align: left;
+  color: black;
+}
+
+.footer {
+  position: inherit;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
