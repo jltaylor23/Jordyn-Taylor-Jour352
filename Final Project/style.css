@@ -1,0 +1,122 @@
+.nav-item {
+  color: red;
+}
+
+.hero-image {
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#headline {
+  font-size: 3em;
+  font-weight: 550;
+  font-family: sans-serif;
+  margin-top: 15px;
+  text-align: center;
+}
+
+#byline {
+  font-size: 1em;
+  font-family: 'Montserrat', serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+  color: red;
+}
+
+p {
+  font-family: 'Montserrat',serif;
+  line-height: 180%;
+  font-size: 1em;
+  margin-top: 4px;
+  margin-bottom: 20px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+}
+
+#chapter1 {
+  font-size: 2.25em;
+  font-weight: 700;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  color: blue;
+  margin-bottom: 15px;
+  margin-top: 40px;
+}
+
+#chapter2 {
+  font-size: 2.25em;
+  font-weight: 700;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  color: blue;
+  margin-bottom: 15px;
+  margin-top: 40px;
+}
+
+#chapter3 {
+  font-size: 2.25em;
+  font-weight: 700;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  color: blue;
+  margin-bottom: 15px;
+  margin-top: 40px;
+}
+
+#chapter4 {
+  font-size: 2.25em;
+  font-weight: 700;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  color: blue;
+  margin-bottom: 15px;
+  margin-top: 40px;
+}
+
+.graphics {
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.quote {
+  font-family: inherit, sans-serif;
+  font-size: 1.75em;
+  font-style: italic;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-left: 15px;
+  border-bottom: 4px solid red;
+  border-top: 4px solid red;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.image {
+  width: 100%;
+}
+
+figcaption {
+  margin-bottom: 20px;
+  margin-top: 20px
+  text-align: center;
+  width: 100%;
+  length: auto;
+  display: block;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  font-family: serif;
+}
+
+
+.footer {
+  position: inherit;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
